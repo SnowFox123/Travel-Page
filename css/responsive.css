@@ -1,0 +1,163 @@
+/* Mobile & Tablet */
+@media (max-width: 1240px) {
+ .hide-on-mobile-tablet {
+    display: none;
+ }
+
+ .nav-bar-list {
+    display: block;
+ }
+
+ .billboards-right {
+    display: unset;
+    margin: 0;
+ }
+
+ .header__main {
+    justify-content: center;
+ }
+
+ .big-place__overlay {
+    justify-content: center ;
+ }
+
+ .proposals__container {
+     text-align: center;
+ }
+
+ .proposals__list-item-sub {
+    text-align: center;
+ }
+
+ .blog-container {
+     margin-left: 0;
+ }
+
+ .footer {
+     padding: 0 0 80px 0;
+ }
+
+ .footer__body {
+     margin: 0 25px;
+ }
+
+ .copyright__container {
+     margin: 0 25px;
+ }
+
+ .big-place-img {
+    width: 100%;
+ }
+
+ .footer__heading-text {
+     padding: 0;
+ }
+}
+
+/* Mobile */
+@media (max-width: 739px) {
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .billboards-time {
+        right: 93px;
+    }
+    
+    .dot {
+        width: 52px;
+    }
+
+    .big-place__text-heading {
+        margin: 28px 0 0 0;
+    }
+
+    .hot-place__1 {
+        justify-content: space-evenly;
+    }
+
+    .search-best-place {
+        padding: 0 56.8px 100px 57.2px;
+    }
+
+    .achievements__container {
+        padding: 90px 56.8px 90px 57.2px;
+    }
+
+    .footer__body-left {
+        text-align: left;
+        padding: 0;
+    }
+
+    .copyright__container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright__container-left {
+        padding: 10px 20px 5px;
+    }
+
+    .copyright__container-right {
+        padding: 5px 20px 10px;
+    }
+
+    .footer__heading-search {
+        width: 76%;
+    }
+
+    .footer__heading-search-container {
+        display: unset !important;
+    }
+
+    .footer__heading-search {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .footer__heading-search-btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+/* Tablet */
+@media (min-width: 740px) and (max-width: 1240px) {
+    .hide-on-tablet {
+        display: none;
+    }
+
+    .search-best-place {
+        padding: 10px;
+    }
+
+    .search-container {
+        margin: 0 0;
+    }
+
+    .achievements__container {
+        padding: 90px 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container__heading {
+        zoom: 65%;
+    }
+
+    .billboards {
+        zoom: 75%;
+    }
+
+    .position-dot {
+        zoom: 70%;
+    }
+
+    .billboards-time {
+        right: 74px;
+    }
+
+    .mySlides, .slide-img, .slideshow-container {
+        width: 100%;
+        height: 565px;
+    }
+}
